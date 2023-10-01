@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+  a {
+    text-decoration: none;
+  }
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Small */
+@media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+body{
+    background-image: url("https://img.freepik.com/premium-photo/red-file-calculator-pencils-white-papers-black-background_23-2147916312.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.header{
+    position: relative;
+    height: 61px;
+    margin-bottom: 20px;
+}
+.logo{
+    padding: 15px;
+    display: flex;
+    margin-left: 20px;
+}
+.container{
+    width: 100%;
+    position: relative
+}
+.logo h1{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: italic;
+    letter-spacing: .5px;
+    color: white;
+}
+.logo i{
+    color: #fff;
+    font-size: 40px;
+    margin-right: 10px;
+}
+hr{   
+    width: 83%;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+
+}
+@media (max-width: 768px) {
+    .logo{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+  }
+.landing{
+    display: grid;
+    place-items: center;
+    position: relative;
+    top: calc(50% - 61px);
+    
+}
+center{
+    width: 44%;
+}
+@media (max-width: 768px){
+    center{
+        position:relative;
+        width: 80%;
+        bottom: 100px;
+    }
+}
+center p{
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+}
+center button {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: black;
+    border: none;
+}
+center button:hover{
+    background-color: rgb(64, 64, 103);
+}
+center button a{
+    color: black;
+}
